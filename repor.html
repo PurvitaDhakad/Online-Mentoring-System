@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentor home</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="reportt.css" />
+
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="bx bx-menu menu-icon"></i>
+                <span class="logo-name">Welcome !!!!</span>
+            </div>
+            <div class="sidebar">
+                <div class="logo">
+                    <i class="bx bx-menu menu-icon"></i>
+                    <span class="logo-name">Mentor's Login</span>
+                </div>
+
+                <div class="sidebar-content">
+                    <ul class="lists">
+                        <li class="list">
+                            <a href="mentorhome.html" class="nav-link">
+                                <i class="bx bx-home-alt icon"></i>
+                                <span class="link">Home</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="mentorpd.html" class="nav-link">
+                                <i class="bx bx-home-alt icon"></i>
+                                <span class="link">Personal Detils</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                                <span class="link">Generate Report</span>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <div class="bottom-cotent">
+
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                                <i class="bx bx-log-out icon"></i>
+                                <span class="link">Logout</span>
+                            </a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <section class="overlay"></section>
+        </nav>
+    </header>
+
+
+    <div class="container">
+
+        <div class="top">
+            <div class="logos">
+                <img src="fcrit logo1.jpg" alt="">
+            </div>
+
+            <div class="collegeAddress">
+                <div class="heading">'Agnel Charities'</div>
+                <div class="midheading"><b>FR.C.RODRIGUES INSTITUTE OF TECHNOLOG</b></div>
+                <p><b>Agnel Technical Education Complex Sector 9-A, Vashi, Navi-Mumbai,Maharashtra,India PIN -400703</b>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="head">
+            <div class="input-fields">
+                <label>Department of </label>
+                <select required>
+                    <option disabled selected>Select Branch</option>
+                    <option> Computer Engineering</option>
+                    <option>Electronics And Telecommunication Engineering</option>
+                    <option>Electrical Engineering</option>
+                    <option>Mechanical Engineering</option>
+                </select>
+            </div>
+
+            <div class="input-fields">
+                <label>Mentoring Report for SH-</label>
+                <input type="year" placeholder="Enter the date" required>
+            </div>
+
+            <div class="input-fields">
+                <label> Mentor Batch -</label>
+                <textarea name="text" id="" cols="15" rows="2"></textarea>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="fields">
+                <div class="input-field">
+                    <label>Semester</label>
+
+                    <select required>
+                        <option disabled selected>Select semester</option>
+                        <option>Semester 1</option>
+                        <option>Semester 2</option>
+                        <option>Semester 3</option>
+                        <option>Semester 4</option>
+                        <option>Semester 5</option>
+                        <option>Semester 6</option>
+                        <option>Semester 7</option>
+                        <option>Semester 8</option>
+                    </select>
+                    <label>Date</label>
+                    <input type="date" placeholder="Enter the date" required>
+
+                </div>
+                <div class="fields">
+                    <div class="input-field">
+                        <label> No. of Students in batch :</label>
+                        <textarea class="styled-textarea" name="number" id="" cols="5" rows="2"></textarea>
+                        <label> Roll Number:</label>
+                        <textarea class="styled-textarea" name="number" id="" cols="20" rows="2"></textarea>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="table-container">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th>Sr No.</th>
+                            <th>Mentoring Summary</th>
+                            <th>Mentoring Duration 1:
+
+                                <input type="date" placeholder="Enter the date" required>
+                            </th>
+                            <th>Mentoring Duration 2:
+
+                                <input type="date" placeholder="Enter the date" required>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Number of students identified as attendence defaulters</td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Number of students identified as academic performance defaulters</td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Number of students participating in co-curricular activities</td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Number of students participating in extra-curricular activities</td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Number of students placed (for BE only)</td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Number of students appearing for competitive exams/opting for higher studies (For TE
+                                and BE only)</td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Number of special cases refereed to Head of the Department</td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Number of special cases refereed to Principal</td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                            <td><textarea class="styled-textarea" name="number" id="" cols="17" rows="2"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Other points discussed,if any:</td>
+                            <td><textarea class="styled-textarea" name="text" id="" cols="17" rows="2"></textarea>
+                            </td>
+                            <td><textarea class="styled-textarea" name="text" id="" cols="17" rows="2"></textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="content">
+                Impact of Mentoring: <td><textarea name="text" id="" cols="90" rows="3"></textarea> </td>
+
+            </div>
+            <div class="gap">
+                <div class="upload-container">
+                    <h4>Signature,Name and Designation of mentor </h4>
+                    <div id="preview"></div>
+                </div>
+                <div class="upload-container">
+                    <h4>Signature of HOD</h4>
+                    <div id="preview"></div>
+                </div>
+
+            </div>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+            <button onclick="exportToPDF()">Export to PDF</button>
+        </div>
+    </div>
+
+    <script src="scripty.js"></script>
+    <script src="report.js"></script>
+
+</body>
+
+</html>

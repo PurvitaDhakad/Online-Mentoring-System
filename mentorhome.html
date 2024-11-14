@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentor home</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="repo.css" />
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+   
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="bx bx-menu menu-icon"></i>
+                <span class="logo-name">Welcome Purvita Dhakad!!!!</span>
+            </div>
+            <div class="sidebar">
+                <div class="logo">
+                    <i class="bx bx-menu menu-icon"></i>
+                    <span class="logo-name">Mentor's Login</span>
+                </div>
+
+                <div class="sidebar-content">
+                    <ul class="lists">
+                        <li class="list">
+                            <a href="mentorpd.html" class="nav-link">
+                                <i class="bx bx-home-alt icon"></i>
+                                <span class="link">Personal Details</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="repor.html" class="nav-link">
+                                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                                <span class="link">Generate Report</span>
+                            </a>
+                        </li>
+                     
+                    </ul>
+                    <div class="bottom-cotent">
+                       
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                                <i class="bx bx-log-out icon"></i>
+                                <span class="link">Logout</span>
+                            </a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <section class="overlay"></section>
+    </header>
+    
+
+ <!-- ========================================bodyyy========================================== -->
+
+<h3>Students</h3>
+
+<div class="search-container">
+    <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search...">
+    <button class="add-row-btn" onclick="addRow()"> +Add Student</button>
+</div>
+
+<table id="myTable">
+    <thead>
+        <tr>
+            <th>Sr No.</th>
+            <th>Roll Number</th>
+            <th>Name of the student</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+        <!-- Table body will be dynamically populated with student data -->
+    </tbody>
+</table>
+
+<button class="save-btn" onclick="saveTableData()">Save</button>
+
+
+
+        <script src="scripty.js"></script>
+</body>
+
+</html>
